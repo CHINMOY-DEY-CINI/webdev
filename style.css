@@ -142,11 +142,25 @@ nav ul li a{
     margin-bottom:20px;
 }
 
+.about-section ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:40px;
+}
 
+.about-section ul li{
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+}
 
-
-
-
+.about-section a{
+    text-decoration: none;
+    margin-top:7px;
+    font-weight:900;
+    color: black;
+}
 
 
 
