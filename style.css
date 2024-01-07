@@ -196,7 +196,6 @@ nav ul li a{
     background-color:white;
     margin:10px;
     padding:15px;
-    /* text-align: justify; */
     text-align: left;
 }
 
@@ -213,6 +212,56 @@ nav ul li a{
     font-size:14px;
     margin-top:8px;
 }
+
+
+.Resume{
+    text-align: center;
+    margin:50px auto;
+}
+
+.Resume a{
+    text-decoration: none;
+    font-weight:600;
+}
+
+.Resume h3{
+    font-size:25px;
+}
+
+.Resume-section{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:39px;
+}
+
+.engineering{
+    width:40%;
+    text-align: left;
+    margin-top:60px;
+}
+
+
+.Engineeing-section{
+    margin-right:5%;
+}
+
+.Engineeing-section h5{
+    margin-bottom:10px;
+    font-size:14px;
+    font-weight:700;
+    margin-top:17px;
+}
+
+.Engineeing-section h6{
+    margin-bottom:10px;
+}
+
+.Engineeing-section p{
+    margin-bottom:10px;
+}
+
+
 
 
 
