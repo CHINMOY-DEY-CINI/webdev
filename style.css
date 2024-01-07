@@ -164,6 +164,62 @@ nav ul li a{
 
 
 
+.what{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 245, 245);
+    padding:50px;
+}
+
+
+.what-section{
+    text-align: center;
+    width: 890px;
+}
+
+
+.what-section h4{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+
+.what-col{
+    display: flex;
+    margin-top:35px;
+    width:800;
+}
+
+
+.developer{
+    background-color:white;
+    margin:10px;
+    padding:15px;
+    /* text-align: justify; */
+    text-align: left;
+}
+
+.developer img{
+    height:40px;
+    margin-bottom:8px;
+}
+
+.developer h6{
+    font-size:14px;
+}
+
+.developer p{
+    font-size:14px;
+    margin-top:8px;
+}
+
+
+
+
+
+
+
 
 
 
