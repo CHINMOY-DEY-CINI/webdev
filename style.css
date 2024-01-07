@@ -1,22 +1,33 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-primary{
     background-color:tomato;
-    padding: 5px 9px;
+    padding: 10px 18px;
     color: white;
     border-radius:5px;
 }
 
 
 /* header start */
+header{
+    background-color:rgb(231, 218, 216);
+    background-image:url('./images/header_bg.png');
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding:38px 65px;
+    padding:38px 85px 0px;
     
 }
 
@@ -25,7 +36,8 @@ nav span{
 }
 
 nav h3{
-    font-weight: bolder;
+    font-weight:900;
+    font-size:30px;
 }
 
 nav ul{
@@ -44,11 +56,77 @@ nav ul li a{
 }
 
 
+/* nav end */
+
+
+
+/* slider-content start */
+.slider{
+    display: flex;
+    margin-top:80px;
+    justify-content: space-between;
+}
+
+.slider-content{
+    padding-left:85px;
+    margin-top:100px;
+    
+}
+
+
+.slider img{
+    width:600px;
+}
+
+
+.slider-content h3{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+
+.slider-content h1{
+    margin-bottom:30px;
+    font-weight: 600;
+    font-size:40px;
+}
+
+
+.slider-button ul{
+    display: flex;
+}
+
+.slider-button ul li{
+    list-style:none;
+    margin-right:15px;
+}
+
+.slider-content p{
+    text-wrap:wrap;
+}
+
+.slider-button ul li a{
+    text-decoration: none;
+}
+
+.slider-button{
+    margin-top:29px;
+    margin-right:20px;
+}
+
+
+.btn-simple{
+    border:1px solid tomato;
+    padding:10px 18px;
+    color:tomato;
+    border-radius:8px;
+}
 
 
 
 
 
 
+/* slider-content end */
 
 
